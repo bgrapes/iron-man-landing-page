@@ -22,7 +22,7 @@ export const Background = styled.section`
 export const Image = styled.img`
   max-width: 100px;
   width: 100%;
-  padding-right: 30px;
+  padding-right: 33px;
 `
 
 export const LoadingIcon = styled.img`
