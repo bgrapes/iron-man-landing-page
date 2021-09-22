@@ -7,31 +7,35 @@ const settings = {
   autoplay: true,
   dots: false,
   infinite: true,
-  slidesToScroll: 1,
+  slidesToScroll: 8,
   slidesToShow: 8,
   speed: 500,
   responsive: [
     {
       breakpoint: 1280,
       settings: {
+        slidesToScroll: 6,
         slidesToShow: 6,
       },
     },
     {
       breakpoint: 1024,
       settings: {
+        slidesToScroll: 4,
         slidesToShow: 4,
       },
     },
     {
       breakpoint: 600,
       settings: {
+        slidesToScroll: 2,
         slidesToShow: 2,
       },
     },
     {
       breakpoint: 480,
       settings: {
+        slidesToScroll: 1,
         slidesToShow: 1,
       },
     },

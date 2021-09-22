@@ -13,7 +13,8 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "format": "prettier --write src/**/*.{js,jsx}"
+    "format": "prettier --write src",
+    "deploy": "gatsby build && surge public/ --domain bgrapes-iron-man.surge.sh"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.13.2",

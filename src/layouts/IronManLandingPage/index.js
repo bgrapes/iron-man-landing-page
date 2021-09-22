@@ -19,6 +19,10 @@ const IronManLandingPage = ({ characterData, data, comics, isLoading }) => {
       <Helmet>
         <title>{seo.title}</title>
         <meta name="description" content={seo.description} />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
