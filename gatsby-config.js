@@ -5,7 +5,7 @@ console.log(`Using environment config: '${activeEnv}'`)
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://www.bgrapes.com',
+    siteUrl: 'https://bgrapes-iron-man.surge.sh',
     title: 'Iron Man Landing Page',
   },
   plugins: [
