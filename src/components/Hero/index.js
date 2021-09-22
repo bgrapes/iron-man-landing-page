@@ -1,4 +1,5 @@
 import React from 'react'
+import { Animated } from 'react-animated-css'
 import Button from '../Button'
 import {
   Container,
@@ -16,7 +17,9 @@ const Hero = ({ description, title }) => {
         <Button large>Get Started</Button>
       </CopyContainer>
       <ImageContainer xs={8} md={4}>
-        <Image src={'./iron-man-cartoon.png'} alt="Logo" />
+        <Animated animationIn="fadeInUp" animationInDuration={700}>
+          <Image src={'./iron-man-cartoon.png'} alt="Logo" />
+        </Animated>
       </ImageContainer>
     </Container>
   )
