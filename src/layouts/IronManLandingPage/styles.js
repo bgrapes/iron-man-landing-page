@@ -1,6 +1,10 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
+  html {
+    padding: env(safe-area-inset);
+  }
+
   html, body, #___gatsby, #gatsby-focus-wrapper, main {
     height: 100%;
   }
